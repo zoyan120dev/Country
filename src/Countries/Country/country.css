@@ -1,0 +1,17 @@
+.country{
+    border: 2px solid salmon;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.countryVisited{
+    background-color: darkslateblue;
+}
+
+.flexContainer{
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,32 @@
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+
+@media(max-width:1260px){
+  .countries{
+    grid-template-columns: repeat(2, 1fr);
+}
+   
+}
+
+
+@media(max-width:768px){
+  .countries{
+    grid-template-columns: repeat(1, 1fr);
+}
+   
+}
+
+
+.visited_flag_container img{
+    width: 80px;
+    margin-right: 10px;
+    height: 80px;
+    object-fit: cover;
+}
+
+

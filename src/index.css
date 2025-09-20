@@ -1,0 +1,16 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+    color: cyan;
+}
+
+
+.button{
+    border: 1px solid skyblue;
+    padding: 10px 20px;
+     border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.089);
+    color: white;
+}
